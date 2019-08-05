@@ -1,0 +1,34 @@
+<h1 class="welcomePage">Welcome to Mandy's Pet Page!</h1>
+
+<div class="carousel">
+    <div class="item"><img border="0" alt="kiwi" src="/public/pictures/kiwi0.jpg" width="600" height="400"></div>
+    <div class="item"><img border="0" alt="coconut" src="/public/pictures/coco0.jpg" width="600" height="400"></div>
+    <div class="item"><img border="0" alt="hazel" src="/public/pictures/hazel0.jpg" width="600" height="400"></div>
+</div>
+
+
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="/public/slick/slick.min.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+	$('.carousel').slick({
+	centerMode: true,
+	slidesToShow: 1,
+	slidesToScroll: 1,
+	autoplay: true,
+	autoplaySpeed: 4000,
+	});
+});
+</script>
+
+<form class="subscribe" method="POST">
+	<p>Enter your name and email address to subscribe for updates.</p>
+	<label>Your name: </label>
+	<input type="text" name="name"></input>
+	<label>Email:</label>
+	<input type="text" name="email"></input>
+	<input type="submit" name="Subscribe" value="Subscribe"></input>
+</form>
+

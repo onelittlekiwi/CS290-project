@@ -1,0 +1,88 @@
+.menu {
+    font-size: 20px;
+    text-align: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    display: block;
+    background-color: #FA589A;
+}
+.menu ul {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+.menu li {
+    float: left;
+  }
+  
+.menu li a {
+      display: block;
+      color: white;
+      text-align: center;
+      font-family: georgia;
+      font-size: 30px;
+      padding: 14px 16px;
+      text-decoration: none;
+  }
+  
+.menu li a:hover:not(.active) {
+      background-color: aqua;
+  }
+
+.menu .active {
+      background-color: lightpink;
+  }
+
+.welcomePage {
+  font-family: 'Sofia';
+}
+
+.petName {
+  font-family: 'Sofia';
+}
+
+#page-wrap {
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 20px;
+    word-wrap: break-word;
+    color: #FA589A;
+    background-color: white;
+    height: 100%;
+    margin-top: 0px;
+}
+
+.carousel {
+  width: 800px;
+  margin: auto;
+}
+
+.carousel .item {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Sofia', fantasy;
+}
+
+.subscribe {
+  font: Helvetica;
+  font-size: 15px;
+  color: black;
+}
+
+#box {
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}

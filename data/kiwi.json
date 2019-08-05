@@ -1,0 +1,6 @@
+{
+    "name": "Kiwi",
+    "dob": "Sep 1, 2015",
+    "story": "Kiwi is named after the kiwi fruit.",
+    "pictures": ["/public/pictures/kiwi1.jpg", "/public/pictures/kiwi2.jpg", "/public/pictures/kiwi3.jpg"] 
+}

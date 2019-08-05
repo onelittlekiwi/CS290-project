@@ -1,0 +1,20 @@
+<h1 class="petName">**{{name}}**</h1>
+
+<h4>Date of Birth: </h4>
+<p>{{dob}}</p>
+
+<h4>Story: </h4>
+<p>{{story}}</p>
+
+<h4>Pictures: </h4>
+<ul class="pictures" style="list-style-type: none">
+  {{#each pictures}}
+  <li>
+    <a href={{this}} download="pic.jpg"><button>Download</button></a>
+    <br>
+    <img border="0" alt="petPic" src={{this}} height="400">
+  </li>
+  {{/each}}
+</ul>
+
+<a href="/">Go back to the main page</a>
